@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-controller/test-controller.iml" filepath="$PROJECT_DIR$/test-controller/test-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-dao/test-dao.iml" filepath="$PROJECT_DIR$/test-dao/test-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-service/test-service.iml" filepath="$PROJECT_DIR$/test-service/test-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-support/test-support.iml" filepath="$PROJECT_DIR$/test-support/test-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-test/test-test.iml" filepath="$PROJECT_DIR$/test-test/test-test.iml" />
+    </modules>
+  </component>
+</project>
