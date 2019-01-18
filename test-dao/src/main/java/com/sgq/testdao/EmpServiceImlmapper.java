@@ -14,5 +14,7 @@ public interface EmpServiceImlmapper {
 
      List<Emp> getAll();
 
+     List<Emp> getById(Integer id);
+
 }
 

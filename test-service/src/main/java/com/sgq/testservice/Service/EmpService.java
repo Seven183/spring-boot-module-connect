@@ -1,4 +1,4 @@
-package com.sgq.testservice;
+package com.sgq.testservice.Service;
 
 import com.sgq.testdao.EmpServiceImlmapper;
 import com.sgq.testsupport.Emp;
@@ -21,5 +21,9 @@ public class EmpService {
 
     public List<Emp> getAll(){
         return empServiceImlmapper.getAll();
+    }
+
+    public List<Emp> getById(Integer id){
+        return empServiceImlmapper.getById(id);
     }
 }

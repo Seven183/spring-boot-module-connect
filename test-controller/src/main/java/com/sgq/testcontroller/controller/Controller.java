@@ -1,7 +1,6 @@
 package com.sgq.testcontroller.controller;
 
-
-import com.sgq.testservice.EmpService;
+import com.sgq.testservice.Service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,14 +14,19 @@ public class Controller {
     @Autowired
     EmpService empService;
 
-//    @GetMapping("/hello")
-//    public String hello() {
-//        return "hello";
-//    }
+
 
     @RequestMapping (value = "/getAll" ,method = RequestMethod.GET)
     public Object getAll(){
         return empService.getAll();
     }
+
+
+    @RequestMapping (value = "/getById/{id}",method = RequestMethod.GET)
+    public Object getById(@PathVariable Integer id){
+        return empService.getById(id);
+    }
+
+
 
 }
