@@ -68,11 +68,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.sgq.testcontroller.TestControllerApplication</mainClass>
-                    <layout>ZIP</layout>
-                </configuration>
+                <!--<configuration>-->
+                    <!--&lt;!&ndash; 指定该Main Class为全局的唯一入口 &ndash;&gt;-->
+                    <!--<mainClass>com.sgq.testcontroller.TestControllerApplication</mainClass>-->
+                    <!--<layout>ZIP</layout>-->
+                <!--</configuration>-->
                 <executions>
                     <execution>
                         <goals>
