@@ -1,6 +1,5 @@
 package com.sgq.Service;
 
-import com.sgq.Repository.MyRepository;
 import com.sgq.EmpServiceImlmapper;
 import com.sgq.Emp;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +18,6 @@ public class EmpService {
 
     @Autowired
     EmpServiceImlmapper empServiceImlmapper;
-
-    @Autowired
-    MyRepository myRepository;
 
     public List<Emp> getAll(){
         return empServiceImlmapper.getAll();

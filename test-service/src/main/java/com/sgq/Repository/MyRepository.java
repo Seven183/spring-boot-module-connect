@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @author siguiqiang
  * @create 2019-1-21
  */
-@Configuration
-public interface MyRepository extends JpaRepository<Emp,Long> {
-
-}
+//@Configuration
+//public interface MyRepository extends JpaRepository<Emp,Long> {
+//
+//}

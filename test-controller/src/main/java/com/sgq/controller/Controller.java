@@ -1,6 +1,5 @@
 package com.sgq.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import com.sgq.Service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
