@@ -4,15 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sgq.EmpServiceImlmapper">
 
-    <select id="getAll" resultType="com.sgq.Emp">
+    <select id="getAll" resultType="com.sgq.entity.Emp">
         select * from emp;
     </select>
 
-    <select id="getById" resultType="com.sgq.Emp">
+    <select id="getById" resultType="com.sgq.entity.Emp">
         select * from emp where id =#{id}
     </select>
 
-    <select id="Course" resultType="com.sgq.Course">
+    <select id="Course" resultType="com.sgq.entity.Course">
         select * from course
     </select>
 

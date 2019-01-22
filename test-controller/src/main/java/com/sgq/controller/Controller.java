@@ -1,7 +1,6 @@
 package com.sgq.controller;
 
-import com.sgq.Person;
-import com.sgq.Repository.MyRepository;
+import com.sgq.entity.Person;
 import com.sgq.Repository.PeopleRepository;
 import com.sgq.Service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;

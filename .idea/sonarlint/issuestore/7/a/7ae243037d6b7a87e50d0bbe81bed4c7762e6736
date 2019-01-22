@@ -1,0 +1,4 @@
+
+…"squid:ClassVariableVisibilityCheck"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8ù©•§‡-
+„"squid:ClassVariableVisibilityCheck"OMake age a static final constant or non-public and provide accessors if needed.(×Áò¿8ù©•§‡-
+€squid:UselessImportCheck"URemove this unused import 'org.springframework.boot.autoconfigure.domain.EntityScan'.(›Ù¯8ù©•§‡-

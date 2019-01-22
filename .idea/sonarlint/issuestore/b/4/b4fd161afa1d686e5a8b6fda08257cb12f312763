@@ -1,0 +1,7 @@
+
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(±­μ8‰γ»¨‡-
+V
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ƒρ8‰γ»¨‡-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”Δ―ÿÿÿÿÿ
+Esquid:S2885"'Make "dateFormat" an instance variable.(ν›ÿ―8‘γχ§‡-
