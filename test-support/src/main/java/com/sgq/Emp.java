@@ -1,12 +1,22 @@
 package com.sgq;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
  * @author siguiqiang
  * @create 2019-1-17
  */
+@Entity
 public class Emp {
 
-    public int    id;
+    @Id
+    @GeneratedValue
+    public int id;
+
     public String name;
     public int age;
 

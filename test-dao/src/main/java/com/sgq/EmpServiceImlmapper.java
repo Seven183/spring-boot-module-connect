@@ -15,5 +15,5 @@ public interface EmpServiceImlmapper {
 
      List<Emp> getById(Integer id);
 
-}
+     List<Course> Course();}
 

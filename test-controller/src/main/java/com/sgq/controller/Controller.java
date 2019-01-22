@@ -1,5 +1,8 @@
 package com.sgq.controller;
 
+import com.sgq.Person;
+import com.sgq.Repository.MyRepository;
+import com.sgq.Repository.PeopleRepository;
 import com.sgq.Service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -14,21 +17,31 @@ public class Controller {
     @Autowired
     EmpService empService;
 
+    @Autowired
+    PeopleRepository peopleRepository;
 
 
-    @RequestMapping (value = "/getAll" ,method = RequestMethod.GET)
-    public Object getAll(){
+    @RequestMapping(value = "/getAll", method = RequestMethod.GET)
+    public Object getAll() {
         return empService.getAll();
     }
 
 
-    @RequestMapping (value = "/getById/{id}",method = RequestMethod.GET)
-    public Object getById(@PathVariable Integer id){
+    @RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
+    public Object getById(@PathVariable Integer id) {
         return empService.getById(id);
     }
 
 
+    @RequestMapping(value = "/findAll", method = RequestMethod.GET)
+    public Object findAll() {
+        return empService.findAll();
+    }
 
-//    @RequestMapping(value = "/findAll" ,method = RequestMethod.POST)
-//    public Object findAll(@RequestBody(required = false) JSONObject params){return empService.FindAll();}
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public Person findByNameStartsWith(String name) {
+        return peopleRepository.findByNameStartsWith(name);
+    }
+
+
 }

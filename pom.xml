@@ -32,6 +32,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -40,6 +41,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
+                <!--可在maven编译中设计Java的变异级别-->
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>

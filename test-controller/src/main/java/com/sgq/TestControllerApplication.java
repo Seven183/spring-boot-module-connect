@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.sgq"})
-@MapperScan("com.sgq.testdao")
+@MapperScan("com.sgq")
 public class TestControllerApplication {
 
     public static void main(String[] args) {
