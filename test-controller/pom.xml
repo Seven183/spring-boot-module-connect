@@ -15,7 +15,7 @@
     <!--<version>0.0.1-SNAPSHOT</version>-->
     <name>test-controller</name>
     <packaging>jar</packaging>
-    <!--<description>Demo project for Spring Boot</description>-->
+    <!--<description>Demo project for com.sgq.Spring Boot</description>-->
 
 
     <properties>
