@@ -3,7 +3,11 @@ package com.sgq.SpringMVC;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author siguiqiang
@@ -19,6 +23,13 @@ public class HelloController {
         return "index";
     }
 
+    @RequestMapping("/test")
+    @ResponseBody
+    public Map<String,String> test(){
+        Map<String ,String> map = new HashMap< String ,String>();
+        map.put("key","value");
+        return map;
+    }
 
     public void addViewControllers(ViewControllerRegistry registy){
         registy.addViewController("index").setViewName("index");

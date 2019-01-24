@@ -20,6 +20,9 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <!--WEB-->
+        <jsp.version>2.2</jsp.version>
+        <servlet.version>3.1.0</servlet.version>
     </properties>
 
     <dependencies>
@@ -39,6 +42,24 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- JSTL for JSP  spring boot搭建web项目，跳转到jsp一定要添加下面的jar包，
+        否则出现跳转的时候，变成下载的功能，保存该页面-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Need this to compile JSP -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -84,6 +105,12 @@
                 </executions>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
 
 
