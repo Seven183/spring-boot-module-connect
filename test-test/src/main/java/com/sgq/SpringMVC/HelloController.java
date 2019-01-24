@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 public class HelloController {
 
     //produces = "application/json;charset=UTF-8"
-    @RequestMapping(value = "/index" ,produces = "application/xml;charset=UTF-8")
+    @RequestMapping(value = "/index")
     public String hello(){
         return "index";
     }
@@ -22,6 +22,6 @@ public class HelloController {
 
     public void addViewControllers(ViewControllerRegistry registy){
         registy.addViewController("index").setViewName("index");
-        registy.addViewController("/upload").setViewName("upload");
+        //registy.addViewController("/upload").setViewName("upload");
     }
 }

@@ -20,7 +20,7 @@ public class  WebInit implements WebApplicationInitializer {
         context.setServletContext(servletContext);
 
         ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", new DispatcherServlet(context));
-        dispatcher.addMapping("/");
+        dispatcher.addMapping("/*");
         dispatcher.setLoadOnStartup(1);
 
     }
