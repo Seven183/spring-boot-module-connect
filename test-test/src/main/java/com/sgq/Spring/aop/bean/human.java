@@ -9,6 +9,7 @@ public class human implements Sleepable {
     * 这些动作全部加到Sleep上去就违反了单一的职责，这时候我们就可以用上aop 了
     *
     * */
+    @Override
     public void hello(){
         System.out.println("睡觉中");
     }

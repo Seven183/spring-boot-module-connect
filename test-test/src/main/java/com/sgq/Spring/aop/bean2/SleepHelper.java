@@ -10,10 +10,12 @@ import java.lang.reflect.Method;
 * */
 public class SleepHelper implements MethodBeforeAdvice,AfterReturningAdvice {
 
+    @Override
     public void before(Method agro,Object[] agr1,Object agr2)throws Throwable{
         System.out.println("睡觉之前，脱衣服");
     }
 
+    @Override
     public void afterReturning(Object agr0,Method arg1,Object[] arg2,Object arg3)
             throws Throwable{
         System.out.println("睡醒穿衣服回去");

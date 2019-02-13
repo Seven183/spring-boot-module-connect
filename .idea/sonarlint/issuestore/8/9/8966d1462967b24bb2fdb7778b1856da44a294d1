@@ -1,9 +1,0 @@
-
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šðœÝ
-rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÁ‰Ÿüÿÿÿÿ8¹Ð¸§‡-
-jsquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.Executor'.(÷ý¶Œúÿÿÿÿ8Õ¨¸§‡-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ñÆÿµýÿÿÿÿ8Ÿœ»§‡-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(µôÐ–øÿÿÿÿ8­«½§‡-
-msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦òÛå8­«½§‡-

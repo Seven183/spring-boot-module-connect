@@ -20,6 +20,8 @@ public class Controller {
     PeopleRepository peopleRepository;
 
 
+
+
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public Object getAll() {
         return empService.getAll();
