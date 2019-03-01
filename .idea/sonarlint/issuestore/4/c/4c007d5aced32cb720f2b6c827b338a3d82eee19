@@ -1,4 +1,4 @@
 
-Wsquid:S1068"4Remove this unused "SerialversionUID" private field.(–õÆˆûÿÿÿÿ8ö­Å¦‡-
-~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–õÆˆûÿÿÿÿ8ö­Å¦‡-
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Äüè8ö­Å¦‡-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Äüè8ö­Å¦‡-
+Usquid:S1068"4Remove this unused "SerialversionUID" private field.(–õÆˆûÿÿÿÿ8ö­Å¦‡-
+|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–õÆˆûÿÿÿÿ8ö­Å¦‡-

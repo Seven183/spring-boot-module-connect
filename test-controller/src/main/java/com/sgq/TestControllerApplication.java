@@ -9,7 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.sgq"})
 @MapperScan("com.sgq")
-public class TestControllerApplication {
+public class
+TestControllerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestControllerApplication.class, args);

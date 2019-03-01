@@ -1,0 +1,9 @@
+
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8øöÊĞ-
+hsquid:CallToDeprecatedMethod"6Remove this use of "toLocaleString"; it is deprecated.(Ä·²¯şÿÿÿÿ8çÀÏĞ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8øöÊĞ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Äë¯‹8©ªÏ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ä·²¯şÿÿÿÿ8©±šÏ-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ8„Î®Ï-
